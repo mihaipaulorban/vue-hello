@@ -10,7 +10,10 @@
     <title>Vue Hello</title>
 </head>
 <body>
-    <h1 id="titolo">{{messaggio}}</h1>
+    <div id="titolo">
+        <h1>{{ messaggio }}</h1>
+        <img :src="imgPath" alt="Descrizione dell'immagine" />
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
